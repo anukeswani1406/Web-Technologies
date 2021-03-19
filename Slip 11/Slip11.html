@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<script>
+			function validate()
+			{
+				p = document.getElementById("pan").value;
+				if(!p.match(/^([\w]{5})(\d{4})([\w]{1}$)/))
+					alert("Invalid");
+				else
+					alert("valid");
+			}
+		</script>
+	</head>
+
+	<body>
+		name of customer:<input type="text" id=cname></br>
+		name of bank:<input type="text" id=bname></br>
+		accno:<input type="text" id=acno name=acno></br>
+		pan no:<input type="text" id=pan name=pan></br>
+		
+		<input type=submit value=Submit id=submit onclick="validate()">
+	</body>
+</html>

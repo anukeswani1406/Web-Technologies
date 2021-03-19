@@ -1,0 +1,19 @@
+ul 
+{
+	
+	font-size: 18;
+	
+	list-style-type:square;;
+
+}
+
+
+ol
+{
+		
+	font-size: 20;
+		
+	list-style-type:lower-roman;
+
+
+}

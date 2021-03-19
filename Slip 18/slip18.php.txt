@@ -1,0 +1,16 @@
+<?php
+	$d=date("D");
+
+	switch($d)
+	{
+		case 'Mon':echo "<body bgcolor=red>";break;
+		case 'Tue':echo "<body bgcolor=Green>";break;
+		case 'Wed':echo "<body bgcolor=blue>";break;
+		case 'Thu':echo "<body bgcolor=yellow>";break;
+		case 'Fri':echo "<body bgcolor=pink>";break;
+		case 'Sat':echo "<body bgcolor=black>";break;
+		case 'Sun':echo "<body bgcolor=gray>";break;
+	}
+	
+	echo $d;
+?>
